@@ -1,0 +1,40 @@
+{
+  "missing": [
+    {
+      "id": 1,
+      "name": "Rajesh Kumar",
+      "age": 45,
+      "last_seen": "12:30 PM",
+      "last_seen_location": "Delhi Main Market, Chandni Chowk",
+      "time_missing": "3 hours ago",
+      "description": "Wearing blue kurta, black trousers. Has a beard.",
+      "contact": "+91 98765-43210",
+      "avatar_initials": "RK",
+      "avatar_color": "#457B9D"
+    },
+    {
+      "id": 2,
+      "name": "Priya Singh",
+      "age": 28,
+      "last_seen": "1:00 PM",
+      "last_seen_location": "Hospital Road, Sector 5",
+      "time_missing": "2 hours ago",
+      "description": "Wearing pink saree. Has a red dupatta.",
+      "contact": "+91 99876-54321",
+      "avatar_initials": "PS",
+      "avatar_color": "#E63946"
+    },
+    {
+      "id": 3,
+      "name": "Arjun Mehta",
+      "age": 12,
+      "last_seen": "11:45 AM",
+      "last_seen_location": "Near Govt. School, Block D",
+      "time_missing": "4 hours ago",
+      "description": "School uniform — white shirt, navy pants. Has a blue backpack.",
+      "contact": "+91 98001-12345",
+      "avatar_initials": "AM",
+      "avatar_color": "#F4A261"
+    }
+  ]
+}

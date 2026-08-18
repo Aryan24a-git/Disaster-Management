@@ -1,0 +1,44 @@
+{
+  "alerts": [
+    {
+      "id": 1,
+      "source": "USGS",
+      "type": "Earthquake",
+      "magnitude": 5.2,
+      "latitude": 28.5,
+      "longitude": 77.2,
+      "depth_km": 18,
+      "timestamp": "2024-08-19T14:32:00Z",
+      "level": "Critical",
+      "distance_km": 12,
+      "region": "New Delhi NCR"
+    },
+    {
+      "id": 2,
+      "source": "IMD",
+      "type": "Flood Warning",
+      "magnitude": null,
+      "latitude": 12.97,
+      "longitude": 77.59,
+      "depth_km": null,
+      "timestamp": "2024-08-19T14:15:00Z",
+      "level": "High",
+      "distance_km": 35,
+      "region": "Bangalore Urban"
+    },
+    {
+      "id": 3,
+      "source": "IMD",
+      "type": "Cyclone Alert",
+      "magnitude": null,
+      "latitude": 13.08,
+      "longitude": 80.27,
+      "depth_km": null,
+      "timestamp": "2024-08-19T13:45:00Z",
+      "level": "Medium",
+      "distance_km": 280,
+      "region": "Bay of Bengal, Tamil Nadu Coast"
+    }
+  ],
+  "user_location": { "lat": 28.6, "lon": 77.3 }
+}

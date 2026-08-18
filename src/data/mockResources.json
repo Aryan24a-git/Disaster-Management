@@ -1,0 +1,36 @@
+{
+  "resources": [
+    {
+      "id": 1,
+      "name": "Red Cross India",
+      "type": "NGO",
+      "phone": "1800-180-1234",
+      "url": "https://www.indianredcross.org",
+      "description": "Emergency relief, blood bank, disaster response"
+    },
+    {
+      "id": 2,
+      "name": "NDMA Helpline",
+      "type": "Government",
+      "phone": "1078",
+      "url": "https://ndma.gov.in",
+      "description": "National Disaster Management Authority"
+    },
+    {
+      "id": 3,
+      "name": "PM Relief Fund",
+      "type": "Government",
+      "phone": "1800-11-0001",
+      "url": "https://pmnrf.gov.in",
+      "description": "Prime Minister's National Relief Fund"
+    },
+    {
+      "id": 4,
+      "name": "Goonj",
+      "type": "NGO",
+      "phone": "011-41401216",
+      "url": "https://goonj.org",
+      "description": "Disaster relief and rehabilitation NGO"
+    }
+  ]
+}

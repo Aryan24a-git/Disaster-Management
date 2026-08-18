@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+/* ==========================================
+   ResQGrid Global Styles
+   ========================================== */
+
+:root {
+  --emergency-red: #E63946;
+  --safe-green: #06A77D;
+  --neutral-dark: #1D1D1D;
+  --neutral-light: #F5F5F5;
+  --accent-blue: #457B9D;
+  --warning-orange: #F4A261;
+  --font-inter: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: var(--neutral-light);
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* ==========================================
+   Custom Animations
+   ========================================== */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+/* Smooth tab content transitions */
+main {
+  animation: slide-up 0.15s ease-out;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==========================================
+   Scrollbar
+   ========================================== */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 2px;
+}
+
+/* ==========================================
+   Safe area insets for iOS
+   ========================================== */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}

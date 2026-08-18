@@ -1,0 +1,8 @@
+{
+  "shelters": [
+    { "id": 1, "name": "Govt. Primary School", "lat": 28.61, "lon": 77.31, "distance_m": 400, "capacity": 200, "type": "School" },
+    { "id": 2, "name": "Community Center", "lat": 28.59, "lon": 77.32, "distance_m": 650, "capacity": 350, "type": "Community" },
+    { "id": 3, "name": "AIIMS Hospital", "lat": 28.57, "lon": 77.21, "distance_m": 1200, "capacity": 500, "type": "Hospital" },
+    { "id": 4, "name": "District Court Complex", "lat": 28.62, "lon": 77.25, "distance_m": 1800, "capacity": 1000, "type": "Government" }
+  ]
+}

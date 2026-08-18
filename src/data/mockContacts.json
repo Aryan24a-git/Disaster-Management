@@ -1,0 +1,9 @@
+{
+  "contacts": [
+    { "id": 1, "name": "Mom", "phone": "+91 98765**44", "phone_full": "+919876543210" },
+    { "id": 2, "name": "Dad", "phone": "+91 99876**55", "phone_full": "+919987654321" },
+    { "id": 3, "name": "Hospital", "phone": "102", "phone_full": "102" },
+    { "id": 4, "name": "Police", "phone": "100", "phone_full": "100" },
+    { "id": 5, "name": "Fire Station", "phone": "101", "phone_full": "101" }
+  ]
+}
